@@ -1,0 +1,252 @@
+{
+  "sessions": [
+    {
+      "id": "S1",
+      "joint": "O1",
+      "child": "K17",
+      "observer": "站点明",
+      "partner": "阿蓝",
+      "date": "2026-10-11",
+      "setting": "站点",
+      "activity": "借蜡笔",
+      "language": "粤语",
+      "turns": [
+        {
+          "speaker": "阿蓝",
+          "text": "这支我先收起。"
+        },
+        {
+          "speaker": "K17",
+          "text": "俾我红嗰枝。"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "joint": "O1",
+      "child": "K17",
+      "observer": "家庭芬",
+      "partner": "阿蓝",
+      "date": "2026-10-11",
+      "setting": "站点",
+      "activity": "借蜡笔",
+      "language": "粤语",
+      "turns": [
+        {
+          "speaker": "K17",
+          "text": "俾我红嗰枝。"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "joint": "O2",
+      "child": "K17",
+      "observer": "家庭芬",
+      "partner": "家庭芬",
+      "date": "2026-10-12",
+      "setting": "家",
+      "activity": "拼画",
+      "language": "普通话",
+      "turns": [
+        {
+          "speaker": "家庭芬",
+          "text": "缺一块怎么办？"
+        },
+        {
+          "speaker": "不明",
+          "text": "给我那块。"
+        },
+        {
+          "speaker": "K17",
+          "text": "红的。",
+          "audio_missing": true
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "joint": "O3",
+      "child": "K17",
+      "observer": "站点雪",
+      "partner": "阿雪",
+      "date": "2026-10-14",
+      "setting": "站点",
+      "activity": "盖积木",
+      "language": "普通话",
+      "turns": [
+        {
+          "speaker": "阿雪",
+          "text": "可以说‘给我’。"
+        },
+        {
+          "speaker": "K17",
+          "text": "给我。"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "joint": "O4",
+      "child": "K17",
+      "observer": "家庭芬",
+      "partner": "家庭芬",
+      "date": "2026-10-18",
+      "setting": "家",
+      "activity": "换绘本",
+      "language": "普通话",
+      "turns": [
+        {
+          "speaker": "记录员",
+          "text": "还没轮到找书，活动结束。"
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "joint": "O5",
+      "child": "K17",
+      "observer": "站点明",
+      "partner": "阿蓝",
+      "date": "2026-10-20",
+      "setting": "站点",
+      "activity": "换绘本",
+      "language": "粤语",
+      "turns": [
+        {
+          "speaker": "阿蓝",
+          "text": "把两册摆到桌上，等了十五秒。"
+        },
+        {
+          "speaker": "记录员",
+          "text": "孩子看向封面，未说话也未递书。"
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "joint": "O6",
+      "child": "K18",
+      "observer": "家庭何",
+      "partner": "阿雪",
+      "date": "2026-10-12",
+      "setting": "共享活动",
+      "activity": "拼画",
+      "language": "普通话",
+      "turns": [
+        {
+          "speaker": "K18",
+          "text": "给我那块。"
+        }
+      ]
+    }
+  ],
+  "amendment": [
+    {
+      "id": "U1",
+      "session": "S3",
+      "turn": 2,
+      "ordinal_origin": 1,
+      "text": "重新听发现在说‘给我那块’的是哥哥。",
+      "date": "2026-10-21"
+    }
+  ],
+  "schedule": [
+    {
+      "id": "P1",
+      "date": "2026-10-22",
+      "slots": 1,
+      "activities": [
+        "借蜡笔",
+        "拼画",
+        "换绘本"
+      ],
+      "partners": [
+        "阿蓝",
+        "阿雪",
+        "家庭芬"
+      ]
+    }
+  ],
+  "partners": [
+    {
+      "id": "阿蓝",
+      "languages": [
+        "粤语"
+      ],
+      "activities": [
+        "借蜡笔",
+        "换绘本"
+      ]
+    },
+    {
+      "id": "阿雪",
+      "languages": [
+        "普通话",
+        "粤语"
+      ],
+      "activities": [
+        "拼画",
+        "换绘本"
+      ]
+    },
+    {
+      "id": "家庭芬",
+      "languages": [
+        "普通话"
+      ],
+      "activities": [
+        "拼画"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "B1",
+      "child": "K17",
+      "activity": "拼画",
+      "partner": "家庭芬",
+      "state": "已约",
+      "evidence": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "id": "B2",
+      "child": "K17",
+      "activity": "换绘本",
+      "partner": "阿蓝",
+      "state": "已完成",
+      "evidence": [
+        "S6"
+      ]
+    }
+  ],
+  "access": [
+    {
+      "id": "A1",
+      "session": "S3",
+      "viewers": [
+        "家庭芬",
+        "站点明"
+      ]
+    },
+    {
+      "id": "A2",
+      "session": "S7",
+      "viewers": [
+        "家庭何",
+        "站点雪"
+      ]
+    },
+    {
+      "id": "A3",
+      "session": "S1",
+      "viewers": [
+        "家庭芬",
+        "站点明"
+      ]
+    }
+  ]
+}
